@@ -1,4 +1,7 @@
 "use strict";
 
+const SolarSystem = require("./domhandler");
 
-console.log("Does this work?????");
+document.getElementById("output").innerHTML = SolarSystem;
+
+
