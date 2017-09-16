@@ -16,13 +16,16 @@ let solarSystemArray = earth.concat(jupiter, mars, mercury, neptune, saturn, ven
 
 const printPlanets = (planet) => {
 for (var i=0; i < planet.length; i++) {
-	planetString += `<div>
+	planetString += `<div class="col-md-3 planets">
+						<img class ="images" src="${planet[i].image}">
 						<h2>${planet[i].planetname}</h2>
-						<h3>${planet[i].yeardiscovered}</h3>
-						<p>${planet[i].mass}</p>
-						<p>${planet[i].size}</p>
-						<p>${planet[i].distancetosun}</p>
-						<p>${planet[i].atmosphere}</p>
+						<p>Year Discovered: ${planet[i].yeardiscovered}</p>
+						<p>Planet Mass: ${planet[i].mass}</p>
+						<p>Planet Size: ${planet[i].size}</p>
+						<p>Distance To The Sun: ${planet[i].distancetosun}</p>
+						<p>Planet Atmosphere: ${planet[i].atmosphere}</p>
+						<p>Satellites: ${planet[i].satellites}</p>
+						<p>Orbiters: ${planet[i].orbiters}</p>
 					</div>`;
 	}
 };
