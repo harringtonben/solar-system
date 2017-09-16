@@ -1,0 +1,25 @@
+body {
+	background-image: url('https://images.freecreatives.com/wp-content/uploads/2016/03/Solar-System-Background-For-Free.jpg');
+	color: white;
+	font-family: 'Space Mono', monospace;
+}
+
+.planets {
+	/*background-color: rgba(255, 255, 255, 0.5);*/
+}
+
+.planet h2, h3, p {
+	margin-bottom: 0;
+}
+
+
+.heading {
+	text-align: center;
+}
+
+.images {
+	height: 250px;
+	width: 100%;
+
+}
+
